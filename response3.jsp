@@ -6,12 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Insert title here</title>
-<script type="text/javascript">
-	function reseValue() {
-		document.getElementById("userName").value="";
-		document.getElementById('pwd').value="";
-	}
-</script>
+
 <%
 	String userName = null;
 	String pwd = null;
@@ -49,5 +44,11 @@
 		</tr>
 	</table>
 </form>
+<script type="text/javascript">
+	function reseValue() {
+		document.getElementById("userName").value="";
+		document.getElementById('pwd').value="";
+	}
+</script>
 </body>
 </html>
